@@ -4,7 +4,7 @@ import (
 	"io"
 )
 
-const bufSize = 4096
+const bufSize = 65443
 
 // Memory optimized io.Copy function specified for this library
 func Copy(dst io.Writer, src io.Reader) (written int64, err error) {
